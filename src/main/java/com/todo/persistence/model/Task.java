@@ -16,6 +16,6 @@ public class Task {
     @GeneratedValue
     private UUID id;
     private String description;
-    private String status;
+    private Status status;
 
 }
